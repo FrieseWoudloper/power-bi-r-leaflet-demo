@@ -1,14 +1,14 @@
 {
     "version": "1.0.0",
-    "author": {"name":"Willy Tadema","email":"friesewoudloper@gmail.com"},
+    "author": {"name":"Willy Tadema","email":"demo@demo.nl"},
     "resources": [
         {
             "resourceId": "rId0",
             "sourceType": 5,
-            "file": "resources/demoD24597D822144CC88F6F093AAB87041B.pbiviz.json"
+            "file": "resources/demoDC56455BF45249BDAD6F5D882F31FDDB.pbiviz.json"
         }
     ],
-    "visual": {"name":"demo","displayName":"demo","guid":"demoD24597D822144CC88F6F093AAB87041B","visualClassName":"Visual","version":"1.0.0","description":"Demo","supportUrl":"www.friesewoudloper.nl","gitHubUrl":""},
+    "visual": {"name":"demo","displayName":"Demo","guid":"demoDC56455BF45249BDAD6F5D882F31FDDB","visualClassName":"Visual","version":"1.0.0","description":"Demo voor mijn blog post","supportUrl":"www.friesewoudloper.nl","gitHubUrl":""},
     "metadata": {
         "pbivizjson": {
             "resourceId": "rId0"

@@ -5,9 +5,9 @@ import VisualConstructorOptions = powerbiVisualsApi.extensibility.visual.VisualC
 var powerbiKey: any = "powerbi";
 var powerbi: any = window[powerbiKey];
 
-var demoD24597D822144CC88F6F093AAB87041B: IVisualPlugin = {
-    name: 'demoD24597D822144CC88F6F093AAB87041B',
-    displayName: 'demo',
+var demoDC56455BF45249BDAD6F5D882F31FDDB: IVisualPlugin = {
+    name: 'demoDC56455BF45249BDAD6F5D882F31FDDB',
+    displayName: 'Demo',
     class: 'Visual',
     apiVersion: '2.6.0',
     create: (options?: VisualConstructorOptions) => {
@@ -23,7 +23,7 @@ var demoD24597D822144CC88F6F093AAB87041B: IVisualPlugin = {
 if (typeof powerbi !== "undefined") {
     powerbi.visuals = powerbi.visuals || {};
     powerbi.visuals.plugins = powerbi.visuals.plugins || {};
-    powerbi.visuals.plugins["demoD24597D822144CC88F6F093AAB87041B"] = demoD24597D822144CC88F6F093AAB87041B;
+    powerbi.visuals.plugins["demoDC56455BF45249BDAD6F5D882F31FDDB"] = demoDC56455BF45249BDAD6F5D882F31FDDB;
 }
 
-export default demoD24597D822144CC88F6F093AAB87041B;
+export default demoDC56455BF45249BDAD6F5D882F31FDDB;
