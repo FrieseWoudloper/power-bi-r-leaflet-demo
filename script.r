@@ -17,18 +17,18 @@ map <- leaflet(data = Values);
 map <- addTiles(map, 
                 urlTemplate = brtAchtergrondkaart, 
                 attribution = "Kaartgegevens &copy; Kadaster", 
-                options = tileOptions(minZoom = 6, maxZoom = 18));
-map <- addCircles(map, 
-                  lng = ~ longitude, 
-				  lat = ~ latitude, 
-				  popup = ~ paste("Locatie:", 
-				  locatie, "<br>", "Magnitude:", 
-				  magnitude));				
+                options = tileOptions(minZoom = 6, maxZoom = 18));			
 map <- addTopoJSON(map, 
                    topojson = read_json(veld), 
 				   weight = 1, color = "grey", 
 				   fillOpacity = 0.3, 
 				   group = 'Groningen veld');
+map <- addCircles(map, 
+                  lng = ~ longitude, 
+				  lat = ~ latitude, 
+				  popup = ~ paste("Locatie:", 
+				  locatie, "<br>", "Magnitude:", 
+				  magnitude));	
 map <- addLayersControl(map, 
                         overlayGroups = c("Groningen veld"), 
 						options = layersControlOptions(collapsed = FALSE));
